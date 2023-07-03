@@ -49,26 +49,31 @@ function burn (address _address, uint _value) public {
 }
 
 ```
-Access the "Solidity Compiler" tab in the sidebar on the left to compile the code. A compatible compiler version, such as "0.8.18," should be selected before clicking the "Compile Token.sol" button.
+* Access the "Solidity Compiler" tab in the sidebar on the left to compile the code. A compatible compiler version, such as "0.8.18," should be selected before clicking the "Compile Token.sol" button.
 
-Using the "Deploy & Run Transactions" tab in the left sidebar, you may deploy the contract after the code has been compiled. Click the "Deploy" button after selecting the "MyToken" contract from the dropdown menu.
+* Using the "Deploy & Run Transactions" tab in the left sidebar, you may deploy the contract after the code has been compiled. Click the "Deploy" button after selecting the "MyToken" contract from the dropdown menu.
 
-Once the contract was deployed, copy the account address and click on the deployed contracts. Once you click on the deployed contract, you will see mint, burn, balances, tokenAbbry, tokenName, and totalSupply. 
+* Once the contract was deployed, copy the account address and click on the deployed contracts. Once you click on the deployed contract, you will see mint, burn, balances, tokenAbbry, tokenName, and totalSupply. 
 
-Clicking on tokenName will reveal the token name "Yuan_Token" and tokenAbbry will reveal the token abbreviation "YTN".
+* Clicking on tokenName will reveal the token name "Yuan_Token" and tokenAbbry will reveal the token abbreviation "YTN".
 
-To begin transactions enter the address that you copied on mint, burn, and balances. First you must enter value in the mint function and click transact. After that check to see if the totalSupply and balances has the same amount. Let's say you entered 500 tokens from the mint, both balances and totalSupply should have " 0: uint256: 500 ".
+* To begin transactions enter the address that you copied on mint, burn, and balances. First you must enter value in the mint function and click transact. After that check to see if the totalSupply and balances has the same amount. Let's say you entered 500 tokens from the mint, both balances and totalSupply should have " 0: uint256: 500 ".
 
-If we are going to burn a token, enter the amount that we want to burn. Ensure that you also entered the copied address before click transact. After clicking transact you can check
-the amount of tokens in your balances and totalSupply. Now let's say you burned 300 tokens,  both balances and totalSupply must have " 0: uint256: 200 ".
-
+* If we are going to burn a token, enter the amount that we want to burn. Ensure that you also entered the copied address before click transact. After clicking transact you can check the amount of tokens in your balances and totalSupply. Now let's say you burned 300 tokens,  both balances and totalSupply must have " 0: uint256: 200 ".
 Now that our balance is 200, let's say you want to burn a token that is higher than your balance. 
 For example you burned 250 tokens,  both balances and totalSupply will still have " 0: uint256: 200 " . This is because the burn function only executes if your balance is greater than or equal to the amount of tokens you want to burn.
 
-# Note
+# Help
+To avoid issues during a transaction, It is best that we follow these procedures to prevent any issues from occuring.
  ### * Only use one address.
  ### * You can only enter positive numbers.
  ### * The burn function only executes if the balances >= val of tokens that will be burned.
 
+## Authors
+
+Contributors names and contact info
+
+Yuan Benjell Santos
+@422004518@ntc.edu.ph
 
 
