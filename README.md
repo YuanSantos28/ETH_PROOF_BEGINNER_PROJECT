@@ -63,7 +63,7 @@ If we are going to burn a token, enter the amount that we want to burn. Ensure t
 the amount of tokens in your balances and totalSupply. Now let's say you burned 300 tokens,  both balances and totalSupply must have " 0: uint256: 200 ".
 
 Now that our balance is 200, let's say you want to burn a token that is higher than your balance. 
-For example you burned 250 tokens,  both balances and totalSupply must will still have " 0: uint256: 200 " .
+For example you burned 250 tokens,  both balances and totalSupply will still have " 0: uint256: 200 " .
 
 # Note
  ### * Only use one address.
