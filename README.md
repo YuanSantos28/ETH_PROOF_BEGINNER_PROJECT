@@ -66,8 +66,8 @@ For example you burned 250 tokens,  both balances and totalSupply will still hav
 # Help
 To avoid issues during a transaction, It is best that we follow these procedures to prevent any issues from occuring.
  * Only use one address.
- * You can only enter positive numbers.
- * The burn function only executes if the balances >= val of tokens that will be burned.
+ * Only enter positive numbers.
+ * The burn function only executes if the balances >= val of tokens we entered to burn in the address.
 
 ## Authors
 
