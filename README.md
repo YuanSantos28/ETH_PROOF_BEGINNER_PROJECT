@@ -8,9 +8,9 @@ The program is written using Remix - Ethereum IDE, which is used for smart contr
  ## Getting Started
 
  ### Run the Program
-to be able to use this code, you must use the Remix - Ethereum IDE website. Use this link to direct you to ther website: https://remix.ethereum.org/
+* First, to be able to use this code, you must use the Remix - Ethereum IDE website. Use this link to direct you to ther website: https://remix.ethereum.org/
 
-Once you accessed the website, create a file and save the file as .sol. For example (Token.sol). Use this file to copy and paste the following code
+* Once you accessed the website, create a file and save the file as .sol. For example (Token.sol). Use this file to copy and paste the following code:
 
 ```javascript
 
@@ -73,7 +73,7 @@ To avoid issues during a transaction, It is best that we follow these procedures
 
 Contributors names and contact info
 
-Yuan Benjell Santos
-@422004518@ntc.edu.ph
+### Yuan Benjell Santos
+### @422004518@ntc.edu.ph
 
 
