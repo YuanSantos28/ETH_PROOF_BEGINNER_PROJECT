@@ -68,7 +68,7 @@ For example you burned 250 tokens,  both balances and totalSupply will still hav
 # Note
  ### * Only use one address.
  ### * You can only enter positive numbers.
- ### * The burn function only executes if the balances > the entered amount of tokens being burned.
+ ### * The burn function only executes if the balances >= val of tokens that will be burned.
 
 
 
